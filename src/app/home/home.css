@@ -1,0 +1,152 @@
+.hero-container {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('/assets/bg-books.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 45%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.hero-image img {
+  width: 320px;
+}
+
+/* stats bar */
+.stats-bar {
+  background: #f05a3a;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+  color: #fff;
+}
+
+.stat h4 {
+  font-size: 26px;
+  margin: 0;
+  text-align: center;
+}
+
+.stat span {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+
+.about-section {
+  text-align: center;
+  padding: 90px 40px;
+}
+
+.about-section h5 {
+  color: #d4a017;
+  letter-spacing: 2px;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.about-sub {
+  color: #f05a3a;
+  font-weight: 600;
+}
+
+.about-text {
+  max-width: 600px;
+  margin: 20px auto 60px;
+  color: #777;
+}
+
+
+
+
+
+
+
+.features-wrapper {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8f8f8;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #f4a000;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Grid layout */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Card */
+.feature-card {
+  background: #fff;
+  padding: 35px 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* Icon */
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #f4a000;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
